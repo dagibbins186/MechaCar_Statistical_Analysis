@@ -9,7 +9,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 -a group of t-tests to determine if the manufacturing lots are statistically different from the mean population
 \
 \
-Finally, Auto RU is asking for a statistical study to compare MechaCar vehicles against the vehicles from other manufacturers. Once the production troubles are fixed, it's time to take MechaCar to market! To be successful, Auto RU needs to know about its competitive differentiation.
+Finally, Auto RU is asking for a statistical study to compare MechaCar vehicles against the vehicles from other manufacturers. Once the production troubles are fixed, it's time to take MechaCar to market! To be successful, Auto RU needs to know about its strengths and competition.
 
 # Linear Regression to Predict MPG
 This analysis examines variables of vehicle length, vehicle weight, spoiler angle, ground clearance, all wheel drive (AWD) and miles per gallon (mpg). It uses R to design a linear model that predicts the mpg of MechaCar prototypes. An R^2 of .7149 indicates that the model explains 71% of mpg predictions. The p-value of 5.35e-11 also suggests the results are not due to chance. The vehicle length and ground clearance statistically impact mpg. Conversely, vehicle weight, spoiler angle, and AWD produce only random variance. 
