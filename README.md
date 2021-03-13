@@ -3,9 +3,19 @@ This analysis examines variables of vehicle length, vehicle weight, spoiler angl
 \
 \
 #Summary Statistics on Suspension Coils
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Together, all manufacturing lots meet these design specifications. However, a break down into the three types of lots reveals another picture. Lot 3 does not meet the requirement. Lot 1 and lot 2 produce variance within the limits.
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI). Together, all manufacturing lots meet these design specifications. The variance is 62.30.
 \
 \
+\!["Total_Summary_DataFrame.PNG"](https://github.com/dagibbins186/MechaCar_Statistical_Analysis/blob/main/Images/Total_Summary_DataFrame.PNG)
+\
+\
+On average, the PSI is 1499, and the median is 1500. The mean and median are almost the same, showing the data is evenly distributed. However, a break down into the three types of lots reveals another picture. Lot 3 does not meet the requirement. Lot 1 and lot 2 produce variance within the limits.
+\
+\
+!["Lot_Summary_DataFrame.PNG"](https://github.com/dagibbins186/MechaCar_Statistical_Analysis/blob/main/Images/Lot_Summary_DataFrame.PNG)
+\
+\
+Lot 3 has a variance of 170 PSI. Its data appears far more spread out than Lot 1 or Lot 2, which have variances of .98 and 7.47 respectively. Lot 1 and Lot 2's small variances advise that their data points tend to be very close to the mean, and to each other. On the other hand, Lot 3's variance exceeds the 100 PSI threshold, and disproportionately affects the total lot's variance of 62.30. 
 **Modeling for Linear Regression to Predict MPG**
 !["Variables-Coefficients-MPG.PNG"](https://github.com/dagibbins186/MechaCar_Statistical_Analysis/blob/main/Images/Variables-Coefficients-MPG.PNG)
 !["Coefficients_Intercepts_MPG.PNG"](https://github.com/dagibbins186/MechaCar_Statistical_Analysis/blob/main/Images/Coefficients_Intercepts_MPG.PNG)
@@ -13,3 +23,5 @@ The design specifications for the MechaCar suspension coils dictate that the var
 \
 \
 **Modeling for Summary Statistics on Suspension Coils**
+!["Read_Suspension_Coil_CSV.PNG"](https://github.com/dagibbins186/MechaCar_Statistical_Analysis/blob/main/Images/Read_Suspension_Coil_CSV.PNG)
+!["Total_Summary_Lot_Summary_Code.PNG"](https://github.com/dagibbins186/MechaCar_Statistical_Analysis/blob/main/Images/Total_Summary_Lot_Summary_Code.PNG)
