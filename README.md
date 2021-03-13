@@ -1,11 +1,13 @@
 # Context
 AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called for a review of the production data. The goal is to generate insights that may help the manufacturing team via:
 \
+\
 -a multiple linear regression analysis that identifies which variables in the dataset predict the mpg of MechaCar prototypes
 \
 -a set of summary statistics about the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
 \
 -a group of t-tests to determine if the manufacturing lots are statistically different from the mean population
+\
 \
 Finally, Auto RU is asking for a statistical study to compare MechaCar vehicles against the vehicles from other manufacturers. Once the production troubles are fixed, it's time to take MechaCar to market! To be successful, Auto RU needs to know about its competitive differentiation.
 
