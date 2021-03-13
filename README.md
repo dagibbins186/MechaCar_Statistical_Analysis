@@ -58,7 +58,7 @@ Null Hypothesis: Road test, reliability and safety do not predict owner satisfac
 \
 Multiple linear regression (MLR), also known simply as multiple regression, is a statistical technique that uses several explanatory variables to predict the outcome of a response variable. First, it is recommended that MechaCar determine if the variables (Road Test, Reliability and Safety) predicts owner satisfaction or not. With this information, MechaCar can see what customers value. Then, with a T-Test, MechaCar can establish difference between itself and a competitor by these variables. If there is a significant difference between MechaCar and a competitiors, then MechaCar can effectively market its differentiation by what customer's want.
 \
-# Modeling
+# Appendix
 ## Modeling for Linear Regression to Predict MPG
 !["Variables-Coefficients-MPG.PNG"](https://github.com/dagibbins186/MechaCar_Statistical_Analysis/blob/main/Images/Variables-Coefficients-MPG.PNG)
 !["Coefficients_Intercepts_MPG.PNG"](https://github.com/dagibbins186/MechaCar_Statistical_Analysis/blob/main/Images/Coefficients_Intercepts_MPG.PNG)
