@@ -2,7 +2,8 @@
 This analysis examines variables of vehicle length, vehicle weight, spoiler angle, ground clearance, all wheel drive (AWD) and miles per gallon (mpg). It uses R to design a linear model that predicts the mpg of MechaCar prototypes. An R^2 of .7149 indicates that the model explains 71% of mpg predictions. The p-value of 5.35e-11 also suggests the results are not due to chance. The vehicle length and ground clearance statistically impact mpg. Coversely, vehicle weight, spoiler angle, and AWD produce only random variance. 
 \
 \
-#Summary Statistics on Suspension Coils
+##Summary Statistics on Suspension Coils
+\
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI). Together, all manufacturing lots meet these design specifications. The variance is 62.30.
 \
 \
